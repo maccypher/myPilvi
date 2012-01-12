@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>My Page</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" />
@@ -10,7 +11,7 @@
 </head> 
 <body> 
 
-<div data-role="page">
+<div data-role="page" id="index">
 
 	<div data-role="header">
 		<h1>My Title</h1>
@@ -27,12 +28,28 @@
 			<li><a href="#">Ferrari</a></li>
 		</ul>
 		
-		<a href="#" data-role="button" data-icon="star" data-theme="a">Button</a>
-		<a href="#" data-role="button" data-icon="star" data-theme="b">Button</a>
-		<a href="#" data-role="button" data-icon="star" data-theme="c">Button</a>
-		<a href="#" data-role="button" data-icon="star" data-theme="d">Button</a>
+		<a href="#one" data-role="button" data-icon="arrow-r" data-theme="a" data-iconpos="right" data-transition="slide">Samsung profitiert vom Smartphone-Boom</a>
+		<a href="#two" data-role="button" data-icon="arrow-r" data-theme="b" data-iconpos="right">Affäre um schweizer Notenbank-Chef</a>
+		<a href="#three" data-role="button" data-icon="arrow-r" data-theme="c" data-iconpos="right">Affäre um schweizer Notenbank-Chef</a>
 	</div><!-- /content -->
 
+</div><!-- /page -->
+<div data-role="page" id="one" data-theme="a">
+	<p><a href="#index" data-rel="back" data-role="button" data-inline="true" data-icon="arrow-l">Overview</a></p>
+	<h1>Samsung profitiert vom Smartphone-Boom</h1>
+	<h2>Im Smartphone-Bereich sind die Südkoreaner Weltmarktführer und nach den Umsatzzahlen auch der weltgrößte Technologie-Konzern.</h2>
+	<p>Seoul. Samsung hat mit unerwartet starken Geschäftszahlen seine Stellung als Smartphone-Weltmarktführer gefestigt. Für das vierte Quartal vermeldete das südkoreanische Unternehmen einen Rekordgewinn sowie einen unerwartet hohen Umsatz. Treibende Kraft des Gewinnanstiegs von 73 Prozent zum Vorjahr war demnach ein Rekord-Absatz der technisch ausgeklügelten Mobiltelefone von 35 Millionen Stück. Samsung hat damit auf diesem Geschäftsfeld seine Führung vor dem US-Rivalen Apple ausgebaut und bleibt der nach Umsatz weltgrößte Technologie-Konzern der Welt. Börsianer hatten jedoch hervorragende Zahlen bereits eingepreist – Samsung-Aktien büßten in Seoul 1,4 Prozent ein. 
+	<br />
+	Für den Zeitraum von Oktober bis Dezember geht Samsung nach bisherigen Berechnungen von einem operativen Gewinn von 5,2 Billionen Won aus (etwa 3,5 Milliarden Euro), während von Reuters befragte Analysten 4,7 Billionen Won erwartet hatten. Dies wäre der höchste Gewinn der Firmengeschichte. Der Umsatz dürfte bei umgerechnet 31 Milliarden Euro liegen und damit auch etwas über den Erwartungen. Samsung legt Ende Januar seine Experten hatten ein starkes Abschneiden erwartet. Zwar kämpft Samsung mit einem schwachen Markt für Speicherchips, wo das Unternehmen ebenfalls Weltmarktführer ist. Allerdings zeigen sich Kunden von dem Angebot bei Smartphones überzeugt. Hier haben sich zudem Konkurrenten wie HTC, Nokia und Research in Motion mit ihren jüngsten Geräten nicht durchsetzen können. Samsung hatte die Märkte bereits im dritten Quartal mit unerwartet guten Geschäftszahlen überrascht. Damals zogen die Koreaner bei Smartphones an Apple vorbei. </p>
+</div><!-- /page -->
+<div data-role="page" id="two">
+	<p><a href="#index" data-rel="back" data-role="button" data-inline="true" data-icon="arrow-l">Overview</a></p>
+</div><!-- /page -->
+<div data-role="page" id="three">
+	<p><a href="#index" data-rel="back" data-role="button" data-inline="true" data-icon="arrow-l">Overview</a></p>
+</div><!-- /page -->
+<div data-role="page" id="four">
+	<p><a href="#index" data-rel="back" data-role="button" data-inline="true" data-icon="arrow-l">Overview</a></p>
 </div><!-- /page -->
 
 </body>

@@ -597,7 +597,7 @@ a.ui-link-inherit {
 		background-size: 776px 18px;
 	}
 	.ui-icon-alt {
-		background-image: url(images/icons-36-black.png);
+		background-image: url(../images/icons-36-black.png);
 	}
 }
 
@@ -648,6 +648,7 @@ a.ui-link-inherit {
 	background-position: 	-432px 50%;
 }
 .ui-icon-star {
+	background-image: url(../images/icons-18-white-z.png);
 	background-position: 	-468px 50%;
 }
 .ui-icon-alert {
@@ -760,9 +761,9 @@ a.ui-link-inherit {
 	border-bottom-left-radius: 1em /*{global-radii-buttons}*/;
 }
 .ui-btn-corner-all {
-	-moz-border-radius: 1em /*{global-radii-buttons}*/;
-	-webkit-border-radius: 1em /*{global-radii-buttons}*/;
-	border-radius: 1em /*{global-radii-buttons}*/;
+	-moz-border-radius: .6em /*{global-radii-buttons}*/;
+	-webkit-border-radius: .6em /*{global-radii-buttons}*/;
+	border-radius: .6em /*{global-radii-buttons}*/;
 }
 
 /* radius clip workaround for cleaning up corner trapping */
@@ -801,14 +802,14 @@ a.ui-link-inherit {
 	height: 100%;
 }
 .ui-overlay-shadow {
-	-moz-box-shadow: 0px 0px 12px 			rgba(0,0,0,.6);
-	-webkit-box-shadow: 0px 0px 12px 		rgba(0,0,0,.6);
-	box-shadow: 0px 0px 12px 				rgba(0,0,0,.6);
+	-moz-box-shadow: 0px 0px 5px 			rgba(0,0,0,.6);
+	-webkit-box-shadow: 0px 0px 5px 		rgba(0,0,0,.6);
+	box-shadow: 0px 0px 5px 				rgba(0,0,0,.6);
 }
 .ui-shadow {
-	-moz-box-shadow: 0px 0px 0 /*{global-box-shadow-size}*/ rgba(255,NaN,NaN,1) /*{global-box-shadow-color}*/;
-	-webkit-box-shadow: 0px 0px 0 /*{global-box-shadow-size}*/ rgba(255,NaN,NaN,1) /*{global-box-shadow-color}*/;
-	box-shadow: 0px 0px 0 /*{global-box-shadow-size}*/ rgba(255,NaN,NaN,1) /*{global-box-shadow-color}*/;
+	-moz-box-shadow: 0px 0px 0 /*{global-box-shadow-size}*/ rgba(255,255,255,1) /*{global-box-shadow-color}*/;
+	-webkit-box-shadow: 0px 0px 0 /*{global-box-shadow-size}*/ rgba(255,255,255,1) /*{global-box-shadow-color}*/;
+	box-shadow: 0px 0px 0 /*{global-box-shadow-size}*/ rgba(255,255,255,1) /*{global-box-shadow-color}*/;
 }
 .ui-bar-a .ui-shadow,
 .ui-bar-b .ui-shadow ,
@@ -818,9 +819,9 @@ a.ui-link-inherit {
 	box-shadow: 0px 0px 0 					rgba(255,255,255,.3);
 }
 .ui-shadow-inset {
-	-moz-box-shadow: inset 0px 0px 4px 		rgba(0,0,0,.2);
-	-webkit-box-shadow: inset 0px 0px 4px 	rgba(0,0,0,.2);
-	box-shadow: inset 0px 0px 4px 			rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0px 0px 0px 		rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0px 0px 0px 	rgba(0,0,0,.2);
+	box-shadow: inset 0px 0px 0px 			rgba(0,0,0,.2);
 }
 .ui-icon-shadow {
 	-moz-box-shadow: 0px 0px 0 				rgba(255,255,255,.4);
@@ -837,9 +838,9 @@ a.ui-link-inherit {
 
 .ui-focus,
 .ui-btn:focus {
-	-moz-box-shadow: 0px 0px 12px #ff9900 /*{global-active-background-color}*/;
-	-webkit-box-shadow: 0px 0px 12px #ff9900 /*{global-active-background-color}*/;
-	box-shadow: 0px 0px 12px #ff9900 /*{global-active-background-color}*/;
+	-moz-box-shadow: 0px 0px 0px #ff9900 /*{global-active-background-color}*/;
+	-webkit-box-shadow: 0px 0px 0px #ff9900 /*{global-active-background-color}*/;
+	box-shadow: 0px 0px 0px #ff9900 /*{global-active-background-color}*/;
 }
 
 /* unset box shadow in browsers that don't do it right
